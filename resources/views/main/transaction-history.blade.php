@@ -29,7 +29,10 @@
       },
       columns: [
         {
-          data: 'created_at'
+          data: 'created_at',
+          render: function(data, type, row){
+            return moment(new Date(data)).format('YYYY-MM-DD hh:mm A');
+          }
         },
         {
           data: 'transaction_type_name'

@@ -13,6 +13,7 @@
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 		<link rel='stylesheet' href='//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css' />
     <script src='//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js'></script>
+		<script src="{{ asset('assets/momentjs/momentjs.js') }}"></script>
 		<!-- Favicons -->
 		<meta name="theme-color" content="#712cf9">
 		<style>
